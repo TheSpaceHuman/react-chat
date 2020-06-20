@@ -1,5 +1,5 @@
 import React from "react";
-import './General.scss'
+import './General.less'
 
 function General() {
     return (

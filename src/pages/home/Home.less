@@ -1,35 +1,43 @@
-.Index {
+@import "../../theme/utils/variables";
+.Home-wrapper {
   text-align: center;
 }
 
-.Index-logo {
+.Home-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .Index-logo {
-    animation: Index-logo-spin infinite 20s linear;
+  .Home-logo {
+    animation: Home-logo-spin infinite 20s linear;
   }
 }
 
-.Index-content {
-  background-color: #282c34;
+.Home-content {
+  background-color: @dark--color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: @light--color;
+  h1, h2, h3 {
+    color: @light--color;
+    margin: 0;
+  }
 }
 
-.Index-link {
-  color: #61dafb;
+.Home-link {
+  color: @primary--color;
   text-decoration: none;
+  &:hover {
+    color: @secondary--color;
+  }
 }
 
-@keyframes Index-logo-spin {
+@keyframes Home-logo-spin {
   from {
     transform: rotate(0deg);
   }

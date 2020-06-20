@@ -1,5 +1,5 @@
 import React from "react";
-import './Header.scss'
+import './Header.less'
 import { Avatar } from 'antd';
 import { Button } from 'antd';
 import { UserOutlined, HomeOutlined } from '@ant-design/icons';

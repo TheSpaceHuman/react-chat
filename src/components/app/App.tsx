@@ -1,6 +1,5 @@
 import React from 'react';
-import './App.scss';
-import 'antd/dist/antd.css';
+import './App.less';
 import DefaultLayout from "../../layout/default-layout/DefaultLayout";
 
  function App() {

@@ -1,7 +1,7 @@
 import React from 'react'
-import './DefaultLayout.scss'
+import './DefaultLayout.less'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Index from "../../pages/index/Index";
+import Home from "../../pages/home/Home";
 import General from "../../pages/general/General";
 import Header from "../../components/header/Header";
 
@@ -15,7 +15,7 @@ function DefaultLayout() {
                         <General />
                     </Route>
                     <Route path="/">
-                        <Index />
+                        <Home />
                     </Route>
                 </Switch>
             </div>
