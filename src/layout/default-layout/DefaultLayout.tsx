@@ -1,9 +1,10 @@
 import React from 'react'
-import './DefaultLayout.less'
+import './DefaultLayout.scss'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from "../../pages/home/Home";
 import General from "../../pages/general/General";
 import Header from "../../components/header/Header";
+import Container from '@material-ui/core/Container';
 
 function DefaultLayout() {
     return (
@@ -12,10 +13,16 @@ function DefaultLayout() {
                 <Switch>
                     <Route path="/general">
                         <Header />
-                        <General />
+                        <main className="main">
+                            <Container>
+                                <General />
+                            </Container>
+                        </main>
                     </Route>
                     <Route path="/">
-                        <Home />
+                        <main className="main">
+                            <Home />
+                        </main>
                     </Route>
                 </Switch>
             </div>

@@ -1,10 +1,11 @@
 import React from "react";
-import './General.less'
+import './General.scss'
+import Typography from '@material-ui/core/Typography';
 
 function General() {
     return (
         <div className="General-wrapper">
-           <h1>General room</h1>
+            <Typography variant="h4">General page</Typography>
         </div>
     );
 }

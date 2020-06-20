@@ -1,0 +1,19 @@
+@import './../../theme/utils/variables';
+.Header {
+  &__navigation {
+    min-width: 250px;
+    padding: 15px;
+  }
+  &__navigation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__navigation-item {}
+  &__navigation-item-link {
+    display: block;
+  }
+  &__navigation-item-link-button {
+    width: 100%;
+  }
+}

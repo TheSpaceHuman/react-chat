@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.less';
+import './App.scss';
 import DefaultLayout from "../../layout/default-layout/DefaultLayout";
 
  function App() {

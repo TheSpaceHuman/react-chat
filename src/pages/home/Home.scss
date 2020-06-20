@@ -15,25 +15,25 @@
 }
 
 .Home-content {
-  background-color: @dark--color;
+  background-color: $dark--color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: @light--color;
+  color: $light--color;
   h1, h2, h3 {
-    color: @light--color;
+    color: $light--color;
     margin: 0;
   }
 }
 
 .Home-link {
-  color: @primary--color;
+  color: $primary--color;
   text-decoration: none;
   &:hover {
-    color: @secondary--color;
+    color: $secondary--color;
   }
 }
 

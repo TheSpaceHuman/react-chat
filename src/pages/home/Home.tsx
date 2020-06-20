@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../assets/icons/logo.svg';
-import './Home.less';
+import './Home.scss';
 import { Link } from 'react-router-dom';
 
 function Home() {
