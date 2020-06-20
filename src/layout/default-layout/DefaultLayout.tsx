@@ -6,7 +6,7 @@ import General from "../../pages/general/General";
 import Header from "../../components/header/Header";
 import Container from '@material-ui/core/Container';
 
-function DefaultLayout() {
+export default function DefaultLayout() {
     return (
         <BrowserRouter>
             <div className="DefaultLayout">
@@ -29,5 +29,3 @@ function DefaultLayout() {
         </BrowserRouter>
     )
 }
-
-export default DefaultLayout
